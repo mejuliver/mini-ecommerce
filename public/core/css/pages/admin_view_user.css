@@ -1,0 +1,68 @@
+.hexagon {
+	width: 100px;
+	height: 55px;
+	position: relative;;
+	margin:5px;
+}
+.hexagon#items-counter{
+	background: #ff824b;
+}
+.hexagon#items-counter:before {
+	content: "";
+	position: absolute;
+	top: -25px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 25px solid #ff824b;
+}
+.hexagon#items-counter:after {
+	content: "";
+	position: absolute;
+	bottom: -25px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 25px solid #ff824b;
+}
+
+.hexagon#reviews-counter {
+	background: #f0da43;
+}
+.hexagon#reviews-counter:before {
+	content: "";
+	position: absolute;
+	top: -25px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 25px solid #f0da43;
+}
+.hexagon#reviews-counter:after {
+	content: "";
+	position: absolute;
+	bottom: -25px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 25px solid #f0da43;
+}
+.star-rating{float:left;margin:1px;}
+.star-rating.rated span:before{
+	color:#76b729;
+	font-family: FontAwesome;
+   	content: "\f005";
+}
+.star-rating.unrated span:before{
+	color:#ffffff;
+	font-family: FontAwesome;
+   	content: "\f006";
+}

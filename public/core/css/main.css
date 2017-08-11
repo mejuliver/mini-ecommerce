@@ -1,0 +1,60 @@
+body{font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	color: #1e1e1e;
+	letter-spacing: .2px;
+}
+#notification-badge{
+	position:absolute;
+	z-index:99;
+	top:3px;
+	margin-left:10px;
+}
+#notifications-holder li{
+	padding:4px 15px;
+	list-style:none;
+	border-bottom: 1px solid #ededed;
+}
+#notifications-holder li:last-child{
+	border:none;
+}
+.button-holder{
+	margin:10px auto 0px auto;
+	display: table;
+}
+/* tag input */
+#tag-input{}
+#tag-input input[type="text"]{
+	border:none;
+	display:inline-block;
+	margin:2px;
+	font-size:10px;
+	padding:0px;
+	min-width:30px!important;
+}
+.tag,.cat{
+	background-color:#76b729;
+	font-size:10px;
+	padding:2px 4px;
+	margin:2px;
+	display:inline-block;
+	color:#ffffff;
+	text-decoration:none;
+}
+.tag:hover,.cat:hover{
+	background-color:#555555;
+	color:#ffffff;
+	text-decoration: none;
+}
+
+/* modal's modal title */
+.modal-title{font-weight:bold!important;}
+.progressBar{
+	background:#ededed;
+}
+.progressBar div{
+	height:10px;
+	background:#76b729!important;
+}
+
+
+/* background-image: linear-gradient(to right,rgba(0,0,0,0),rgba(0,0,0,.75),rgba(0,0,0,0)) */

@@ -1,0 +1,32 @@
+.order-status{
+    text-align:center;
+    width:150px;
+    font-size:13px;
+    display:inline-block;
+    margin:3px;
+    padding:20px 0px;
+    color:#ffffff;
+    text-align-center
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.order-status-counter{
+    font-size:17px;
+    margin-bottom:7px;
+}
+.order-status:nth-child(1){
+    background:#0099ff;
+}
+.order-status:nth-child(2){
+    background:#f0da43;
+}
+.order-status:nth-child(3){
+    background:#f043da;
+}
+.order-status:nth-child(4){
+    background:#f06843;
+}
+.order-status:nth-child(5){
+    background:#48ba60;
+}
